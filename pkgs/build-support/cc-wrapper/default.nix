@@ -754,7 +754,6 @@ stdenvNoCC.mkDerivation {
           && !targetPlatform.isAndroid
         )
         ''
-          echo " -nostdlibinc" >> $out/nix-support/cc-cflags
         ''
 
     ##
